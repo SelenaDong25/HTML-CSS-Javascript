@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "UTF-8">  
+<title>ECorner Canada Ltd</title>
+<link type = "text/css" rel = "stylesheet" href = "../css/main.css">
+</head>
+<body>
+<header>
+	<img src = "../images/logo.png" alt = "logo" width = "100">
+	<h1>ECorner GIS Services</h1>
+	<nav id = "header_wrapper">
+		<ul>
+			<li><a href = "../index.html">HOME</a></li>
+			
+			<li><a href = "../pages/gisservices.html">GIS SERVICES</a></li>
+				
+				<ul>
+					<li><a href = "pages/gismapping.html">GIS MAPPINGS</a></li>
+					<li><a href = "pages/gisdata.html">GIS DATA MANAGEMENT</a></li>
+					<li><a href = "pages/gisanalysis.html">GIS ANALYSIS</a></li>
+				</ul>
+			<li><a href = "pages/gisdevelopment.html">GIS DEVELOPMENT</a></li>
+				<ul>
+					<li><a href = "pages/webdevelopment.html">WEB DEVELOPMENT</a></li>
+					<li><a href = "pages/mobildevelopment.html">MOBIL DEVELOPMENT</a></li>
+					<li><a href = "pages/customapplication.html">GIS CUSTOM SOLUTION</a></li>
+				</ul>			
+			<li><a href = "../pages/casestudies.html">CASE STUDIES</a></li>
+			<li><a href = "../pages/contact.html">CONTACT</a></li>
+		
+		</ul>
+	</nav>
+
+</header>
+<div id = "wrapper">
+	<h2>Contact Us</h2>
+	<p> If you need any information, or if you need consult with one of our specialist, please leave your information and brief comments below. Our representative will contact you within 2 business days. You can also email us at info@ecornercanada.com for further information.</p>
+	<main>
+		<form action = "../scripts/contact.php" method = "post" id = "contactForm">
+		<!--<form action = "../scripts/contact.php" method = "get">-->
+		<fieldset class = "personal">
+			<legend>Personal Details</legend>
+			<label>First Name:
+			<input type = "text" name = "firstName" id = "firstName" autofocus required placeholder = "First Name" size = "20" maxlength = "50">			
+			</label>
+			<br>
+			<label for = "lastName">Last Name:</label>
+			<br>
+			<input type = "text" name = "lastName" id = "lastname" required placeholder = "Last Name" size = "20" maxlength = "50">
+			<br>
+			<label for = "email">Email:</label>
+			<br>
+			<input type = "email" name = "email" id = "email" required>
+			<br>
+
+		</fieldset>
+		<fieldset>
+
+		<br>
+		<label for = "comments"> Comments:</label><br>
+		<textarea name = "comments" id = "comments" cols = "50" rows = "10"></textarea>
+					
+		</fieldset>
+		<input type = "submit" name = "submit" id = "submit" value = "Send Info">
+		<input type = "reset" name = "reset" id = "reset" value = "Clear Info">
+		</form>
+		<aside>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.8998685124434!2d-114.20574268453514!3d51.04639037956209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716dd9e3df3913%3A0xfef5e169805208d0!2s22+Aspen+Summit+Manor+SW%2C+Calgary%2C+AB+T3H+3Z8%2C+Canada!5e0!3m2!1sen!2sus!4v1552529551037" width="350" height="250" frameborder="0" style="border:0" width="350" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</aside>
+	</main>
+</div>
+<footer>
+
+	<section>
+		<p>
+		&copy;2019 ECorner Canada Ltd.
+		</p>		
+	</section>
+		<section>
+		<p>
+		Contact Us: 
+		<a href="mailto:info@ecornercanada.com">info@ecornercanada.com</a>
+		</p>		
+	</section>
+
+</footer>
+</body>
+
+</html>
